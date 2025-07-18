@@ -1,6 +1,6 @@
 # Pixelated Image Detection and Correction
 
-![Depixelation Example](https://github.com/nafis71041/pixelation_correction/blob/main/depixelation_examples/success4_protest_4x_lanczos_nearest.png)
+![Depixelation Example](depixelation_examples/unsuccess3_protest_jpeg10.png)
 *Pixelated image (left), depixelated by our model (middle), and the ground truth (right)*
 
 ## Problem Statement
@@ -9,17 +9,17 @@ Pixelation is a common issue in images, leading to a loss of quality and importa
 
 ## Description
 
-This repository contains two primary models: a [detector model](https://github.com/nafis71041/pixelation_correction/blob/main/detector_005_1_50.keras) to identify pixelated images and a [depixelator model](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_004_2.keras) to restore pixelated images to their original quality. Both models were inspired by the U-Net architecture but optimized for efficiency using depthwise and pointwise convolutions.
+This repository contains two primary models: a [detector model](detector_005_1_50.keras) to identify pixelated images and a [depixelator model](depixelator_004_2.keras) to restore pixelated images to their original quality. Both models were inspired by the U-Net architecture but optimized for efficiency using depthwise and pointwise convolutions.
 
 ## Repository Structure
 
 ### Project Report
-- **[Project Report.pdf](https://github.com/nafis71041/pixelation_correction/blob/main/Project%20Report.pdf)**
+- **[Project Report.pdf](https://github.com/SuryaAbyss/Pixelated-Image-Detection-and-Correction/blob/main/Project%20Report.pdf)**
 
 Project report can be found here.
 
 ### Testing Files
-- **[detector_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/detector_testing.ipynb)**
+- **[detector_testing.ipynb](detector_testing.ipynb)**
 - **[depixelator_testing.ipynb](https://github.com/nafis71041/pixelation_correction/blob/main/depixelator_testing.ipynb)**
 
 These are the testing files. Users should follow the instructions in these files to test our detector and depixelator models.
